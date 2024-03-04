@@ -8,8 +8,8 @@ public class Tugas3 {
         System.out.print("Masukkan bilangan b: ");
         int b = input.nextInt();
 
-        int gcd = hitungPTB(a, b);
-        System.out.println("Pembagi Bersama Terbesar dari " + a + " dan " + b + " adalah: " + gcd);
+        int ptb = hitungPTB(a, b);
+        System.out.println("Pembagi Bersama Terbesar dari " + a + " dan " + b + " adalah: " + ptb);
     }
 
     public static int hitungPTB(int a, int b) {
